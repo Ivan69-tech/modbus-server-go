@@ -27,7 +27,7 @@ func main() {
 	var err error
 
 	mh = &modbusHandler{}
-	host := "tcp://0.0.0.0:1502"
+	host := "tcp://0.0.0.0:502"
 
 	server, err = modbus.NewServer(&modbus.ServerConfiguration{
 		URL:        host,
